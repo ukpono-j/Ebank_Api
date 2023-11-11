@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://ebank-app.vercel.app/",
+    "https://ebank-app.vercel.app",
     // "https://escrow-app.onrender.com",
     // "https://escrow-app-delta.vercel.app",
     // "https://api.multiavatar.com",
