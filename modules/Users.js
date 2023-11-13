@@ -17,6 +17,9 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  dateOfBirth: {
+    type: String,
+  },
   isAvatarImageSet: {
     type: Boolean,
     default: false, // Default value is set to false
